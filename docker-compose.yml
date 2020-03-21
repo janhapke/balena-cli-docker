@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  balena:
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/balena
